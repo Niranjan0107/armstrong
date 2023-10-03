@@ -1,0 +1,21 @@
+@media(min-width:768px)
+{
+    .company-contact {
+        display: flex;
+        justify-content: right;
+        column-gap: 50px;
+    }
+    .main-header {
+        padding: 30px 0px;
+    }
+
+    .navbar-expand-lg .offcanvas .offcanvas-body {
+        display: initial;
+        padding: 0;
+        overflow-y: visible;
+    }
+
+    .bottom-header .navbar {
+        height: 60px;
+    }
+}
