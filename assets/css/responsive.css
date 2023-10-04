@@ -18,4 +18,62 @@
     .bottom-header .navbar {
         height: 60px;
     }
+    .carousel-caption {
+        right: 10%;
+        left: 10%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+    
+        width: 9%;
+    }
+
+    .carousel-caption {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        text-align: left;
+        top: 35%;
+        max-width: 40%;
+    }
+}
+
+
+@media(max-width:767px)
+{
+    aside#text-4 img {
+  
+        margin-bottom: 30px;
+    }
+
+    .carousel-item {
+        height: 400px;
+    }
+    .carousel-caption h3 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .topbar {
+        display: none;
+    }
+
+    .main-header.container {
+        display: none;
+    }
+    a.secondary-btn,  a.white-btn {
+        padding: 0px 20px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px;
+    }
+    .carousel-caption {
+        top: 70px;
+    }
+    .button-group {
+     
+        justify-content: center;
+    }
 }
