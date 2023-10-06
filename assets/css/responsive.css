@@ -35,6 +35,11 @@
         top: 35%;
         max-width: 40%;
     }
+
+    .commitment p {
+      
+        max-width: 84%;
+    }
 }
 
 
