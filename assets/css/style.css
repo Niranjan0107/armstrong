@@ -1679,3 +1679,18 @@ a.read-more-link:after {
 .accordion-item {
     margin-bottom: 10px;
 }
+
+.accordion-button:not(.collapsed)::after {
+ 
+    filter: brightness(100);
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+    background-color: #1f931b;
+    color: #fff;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+}
