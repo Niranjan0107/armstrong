@@ -167,13 +167,24 @@
         padding-bottom: 35px;
 
     }
+
+    a.navbar-brand img {
+        width: 70%;
+    }
+    .gallery {
+        margin-bottom: 20px;
+    }
+
+    .filter-button {    
+        margin-bottom: 7px;
+    }
     div#navbarOffcanvas {
         background-color: #4CAF50;
-        width: 82%;
+        /* width: 82%; */
     }
     button.btn-close {
-        position: absolute;
-        right: -36px;
+        /* position: absolute;
+        right: -36px; */
         opacity: 1;
     }
     .offcanvas-body ul li a {
