@@ -1,5 +1,8 @@
 @media(min-width:768px)
 {
+    .col-md-hidden {
+        display: none;
+    }
     .company-contact {
         display: flex;
         justify-content: right;
@@ -40,11 +43,170 @@
       
         max-width: 84%;
     }
+    .verticle-slider {
+        padding-left: 3px;
+    }
+    .slick-slide {
+        margin: 0 15px;
+      }
 }
 
 
 @media(max-width:767px)
 {
+
+    aside#text-4 h4.widget-title {
+        order: 2;
+    }
+
+    aside#text-4 .textwidget {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    aside#text-4 {
+        display: grid;
+    }
+
+    aside#text-4 img {
+        width: 240px;
+        margin-top: 0px;
+        order: 1;
+    }
+
+    form.mbl-search-form i {
+        position: absolute;
+        z-index: 999999;
+        color: black;
+        right: 4px;
+        top: 3px;
+    }
+    
+    form.mbl-search-form.active input {
+        transform: translateY(0);
+        transition: .3s ease-in;
+    }
+
+    form.mbl-search-form i {
+        opacity: 0;
+        transition: .3s ease-in;
+
+    }
+
+    form.mbl-search-form.active i {
+        opacity: 1;
+        transition: .3s ease-in;
+
+    }
+
+    form.mbl-search-form input {
+        width: 97%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 41px;
+        padding: 14px;
+        top: 7px;
+        transform: translateY(-60px);
+        transition: .3s ease-out;
+    }
+    .search-box.active {
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        min-width: 100%;
+        left: 0;
+        right: 0;
+        height: 100%;
+        transition: .3s ease-in;
+        transform: translateY(-3px);
+    }
+    .search-box
+    {
+    transition: .3s ease-out;
+    transform: translateY(-60px);
+}
+
+    .search-box.active input {
+        width: 100%;
+        background-color: #000;
+    }
+
+.about-sec h2.title {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.about-sec img {
+    margin-top: 30px;
+}
+.why-us .col-12 {
+    margin-bottom: 20px;
+}
+
+    .alternate, .gallery-section, .project {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .blog {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+   .verticle-slider {
+        margin-top: 30px;
+    }
+    .slick-slide {
+        margin: 0 0px;
+      }
+    .about-sec {
+        padding-top: 35px;
+        padding-bottom: 35px;
+
+    }
+    div#navbarOffcanvas {
+        background-color: #4CAF50;
+        width: 82%;
+    }
+    button.btn-close {
+        position: absolute;
+        right: -36px;
+        opacity: 1;
+    }
+    .offcanvas-body ul li a {
+        margin-bottom: 18px;
+        font-size: 17px !IMPORTANT;
+        color: #fff !important;
+    }
+    
+    .offcanvas-body ul li {
+        display: grid;
+    }
+    .glightbox img {
+        height: 150px;
+    }
+
+    .mbl-search-box {
+    text-align: center;
+}
+body .container .mbl-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .container .mbl-logo img {
+    text-align: right;
+    max-width: 87% !important;
+}
+    .col-sm-hidden {
+        display: none;
+    }
+    .bottom-header .row {
+        align-items: center;
+    }
     aside#text-4 img {
   
         margin-bottom: 30px;

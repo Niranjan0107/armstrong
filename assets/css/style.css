@@ -367,7 +367,8 @@ aside#text-4 img {
 }
 
 .about-sec {
-    padding: 70px 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 h2.title {
     font-size: 28px;
@@ -1327,7 +1328,8 @@ a.outlined-primary {
 
 
   .alternate {
-    padding: 70px 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color:var(--alternate);
 }
 
@@ -1398,7 +1400,8 @@ a.outlined-primary {
 
 .project
 {
-    padding: 70px 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -1447,9 +1450,7 @@ ul.slick-dots {
     margin-top: 10px;
 }
 
-.slick-slide {
-  margin: 0 15px;
-}
+
 article.post-related {
     /* margin: 0 15px; */
     border: 1px solid #dfdfdf;
@@ -1564,7 +1565,8 @@ a.read-more-link:after {
 
 .blog
 {
-    padding: 70px 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -1590,9 +1592,7 @@ a.read-more-link:after {
     margin-bottom: 30px;
 }
 
-.verticle-slider {
-    padding-left: 3px;
-}
+
 
 .verticle-slider h3.entry-post-title a {
     font-size: 16px;
@@ -1672,6 +1672,10 @@ a.read-more-link:after {
 
 .gallery-section
 {
-    padding: 70px 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
+.accordion-item {
+    margin-bottom: 10px;
+}
