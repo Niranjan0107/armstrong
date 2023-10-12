@@ -1694,3 +1694,78 @@ a.read-more-link:after {
 .accordion-button {
     box-shadow: none !important;
 }
+
+
+
+
+
+/* Page Title banner  */
+
+section.page-title {
+  background-image: url(../../assets/images/slider-11.jpg);
+  background-position: 50% -80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  position: relative;
+  background-attachment: scroll;
+}
+.page-title-inner {
+  position: relative;
+  text-align: center;
+}
+ul.breadcrumbs {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  line-height: 1;
+}
+.page-title-overlay {
+  background-color: rgba(255,255,255,0.85);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+body .breadcrumbs li span, .breadcrumbs li a:hover, .breadcrumbs li span:hover {
+  color: var(--secondary);
+}
+
+.breadcrumbs li a, .breadcrumbs li span {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+  line-height: 1.875;
+  text-decoration: none;
+}
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li:last-child:after {
+  display: none;
+}
+.breadcrumbs li:after {
+  font-family: Fontawesome;
+  display: inline-block;
+  content: "\f054";
+  font-size: 10px;
+  letter-spacing: -.02em;
+  padding: 0 10px;
+  color: var(--primary);
+  font-weight: initial;
+}
+.page-title-inner h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--primary);
+}
+
+/* Page Title banner */
