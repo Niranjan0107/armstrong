@@ -1830,3 +1830,24 @@ iframe {
   filter: saturate(0.5);
 }
 /* Contact Page */
+
+
+/* Blog Page */
+
+.blog-page .slide-content-static {
+  margin-bottom: 25px;
+}
+
+
+.blog-page .verticle-slider {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+  height: 100vh;
+}
+
+
+.single-testimonials video {
+  width: 100%;
+}
+/* Blog Page */

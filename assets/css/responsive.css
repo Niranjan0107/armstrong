@@ -128,7 +128,7 @@
     {
     transition: .3s ease-out;
     transform: translateY(-60px);
-}
+    }
 
     .search-box.active input {
         width: 100%;
@@ -138,14 +138,14 @@
 .about-sec h2.title {
     font-size: 24px;
     line-height: 1.2;
-}
+    }
 
 .about-sec img {
     margin-top: 30px;
-}
+    }
 .why-us .col-12 {
     margin-bottom: 20px;
-}
+    }
 
     .alternate, .gallery-section, .project, .contact-sec {
         padding-top: 35px;
@@ -254,4 +254,11 @@ body .container .mbl-logo img {
      
         justify-content: center;
     }
+
+
+    .blog-page .slick-carousel-static {
+        grid-template-columns: auto;
+       
+      }
+
 }
