@@ -133,3 +133,38 @@ var lightboxDescription = GLightbox({
  $(".mbl-search-box").click(function(){
    $(".mbl-search-form").toggleClass("active");
  });
+
+
+
+
+
+
+
+
+ // Single project 
+
+var slider = new Swiper ('.gallery-slider', {
+  slidesPerView: 1,
+  centeredSlides: true,
+  loop: true,
+  loopedSlides: 4,
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+var thumbs = new Swiper ('.gallery-thumbs', {
+  slidesPerView: 4,
+  spaceBetween: 15,
+  centeredSlides: true,
+  loop: true,
+  slideToClickedSlide: true,
+});
+
+//slider.params.control = thumbs;
+//thumbs.params.control = slider;
+
+slider.controller.control = thumbs;
+thumbs.controller.control = slider;
+ // Single project 

@@ -162,7 +162,7 @@
     .slick-slide {
         margin: 0 0px;
       }
-    .about-sec {
+    .about-sec, .single-project-gallery, .gallery-container {
         padding-top: 35px;
         padding-bottom: 35px;
 
@@ -261,4 +261,26 @@ body .container .mbl-logo img {
        
       }
 
+      .video-container .row>* {
+        width: 85%;
+    }
+    .video-container .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+
+    .gallery-slider .swiper-slide {
+        height: 290px;
+    }
+
+    .gallery-thumbs .swiper-slide {
+        width: 25%;
+        height: 60px;
+    }
+    .content-wrap h2 {
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
 }
