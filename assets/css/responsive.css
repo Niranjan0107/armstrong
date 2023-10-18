@@ -187,12 +187,37 @@
         right: -36px; */
         opacity: 1;
     }
-    .offcanvas-body ul li a {
+    li.nav-item span:after {
+        right: 56px;
+        top: 0;
+    }
+    .offcanvas-body ul.navbar-nav span:hover ul, .offcanvas-body ul.navbar-nav span ul {
+   
+        max-width: 100%;
+    }
+    .offcanvas-body ul li>* {
+        margin-bottom: 18px !important;
+        display: inline-block;
+        padding-bottom: 16px;
+    }
+    .offcanvas-body ul.navbar-nav span:hover ul {
+        transform: translateY(18px);
+    }
+    li.nav-item span {
+        position: relative;
+    }
+    .offcanvas-body ul li a, .offcanvas-body li.nav-item span{
         margin-bottom: 18px;
         font-size: 17px !IMPORTANT;
         color: #fff !important;
     }
     
+    .offcanvas-body li.nav-item span
+    {
+        line-height: normal;
+        height: unset;
+    }
+
     .offcanvas-body ul li {
         display: grid;
     }

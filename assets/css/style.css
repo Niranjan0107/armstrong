@@ -55,6 +55,83 @@ p
     padding: 0;
 }
 
+ul.navbar-nav ul {
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 100%;
+  color: #fff;
+  z-index: -1;
+  list-style: none;
+  background-color: var(--primary);
+  border-bottom: solid 2px ;
+  border-color: var(--secondary);
+  -webkit-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.15);
+  padding-bottom: 10px;
+  max-width: 204px;
+  width: 100%;
+  text-align: left;
+}
+ul.navbar-nav span ul li a {
+  height: auto;
+  padding-bottom: 0;
+  line-height: 42px;
+}
+li.nav-item span {
+  height: 58px;
+  display: inline-block;
+  line-height: 58px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 30px;
+}
+ul.navbar-nav span ul li a {
+    height: auto;
+    padding-bottom: 0;
+    display: grid;
+    width: 100%;
+
+}
+ul.navbar-nav span:hover {
+  color: var(--secondary);
+}
+li.nav-item span:after {
+  content: "\f107";
+  position: absolute;
+  font-family: Fontawesome;
+  margin-left: 5px;
+}
+ul.navbar-nav span ul {
+  transform: translateY(100px);
+  transition: .3s ease-out;
+  transform-origin: top;
+}
+
+ul.navbar-nav span:hover ul {
+  transform: translateY(0px);
+  transition: .3s ease-in;
+  transform-origin: bottom;
+
+}
+ul.navbar-nav span ul li {
+    display: grid;
+    margin-bottom: 0;
+}
+ul.navbar-nav span:hover ul {
+    overflow: visible;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    z-index: 999;
+    margin-top: 0;
+}
+
 
 .company-logo img {
     width: 100%;
@@ -120,7 +197,7 @@ p
     margin-right: 30px;
 }
 
-.bottom-header .navbar a.active, .bottom-header .navbar a:hover {
+.bottom-header .navbar a.active, .bottom-header .navbar a:hover, li.nav-item span.active {
 
     color: var(--secondary);
 
