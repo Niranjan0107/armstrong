@@ -193,7 +193,7 @@
     }
     .offcanvas-body ul.navbar-nav span:hover ul, .offcanvas-body ul.navbar-nav span ul {
    
-        max-width: 100%;
+       max-width: 100%;   /*test */
     }
     .offcanvas-body ul li>* {
         margin-bottom: 18px !important;
