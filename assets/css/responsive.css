@@ -31,6 +31,12 @@
         width: 9%;
     }
 
+    .tank-sec
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
     .carousel-caption {
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
@@ -54,6 +60,38 @@
 
 @media(max-width:767px)
 {
+    .related-blogs .row > * {
+        width: 90%;
+    }
+    .related-blogs .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+
+    .table-wrap td {
+        min-width: 155px;
+    }
+    
+    .table-wrap {
+        width: 97%;
+        overflow: auto;
+    }
+
+    .blog-footer-meta, .blog-footer-meta .social-contact {
+        text-align: center !important;
+    }
+    
+    .blog-footer-meta {
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 30px;
+        color: #afafaf;
+    }
+    .confirmation {
+        margin-top: 20px;
+    }
 
     aside#text-4 h4.widget-title {
         order: 2;
@@ -147,7 +185,7 @@
     margin-bottom: 20px;
     }
 
-    .alternate, .gallery-section, .project, .contact-sec, .why-us {
+    .alternate, .gallery-section, .project, .contact-sec, .why-us, .tank-sec {
         padding-top: 35px;
         padding-bottom: 35px;
     }
@@ -193,7 +231,7 @@
     }
     .offcanvas-body ul.navbar-nav span:hover ul, .offcanvas-body ul.navbar-nav span ul {
    
-        max-width: 100%;
+       max-width: 100%;   /*test */
     }
     .offcanvas-body ul li>* {
         margin-bottom: 18px !important;

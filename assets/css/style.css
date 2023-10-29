@@ -340,6 +340,15 @@ a.white-btn {
     color: var(--light-gray);
 }
 
+.copyright {
+  text-align: center;
+  width: 100%;
+  background-color: var(--secondary);
+  color: #fff;
+  font-size: 13px;
+  padding: 15px;
+}
+
 h4.widget-title {
     font-size: 20px;
     font-weight: 600;
@@ -1872,6 +1881,28 @@ body .breadcrumbs li span, .breadcrumbs li a:hover, .breadcrumbs li span:hover {
   margin-bottom: 25px;
 }
 
+.form-details .form-submit input {
+  display: inline-block;
+  width: auto;
+  color: #fff;
+  padding: 0px 30px;
+}
+
+
+.confirmation {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color:#797979;
+}
+
+.confirmation input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+}
 
 .contact-sec .social-contact {
   margin-top: 20px;
@@ -2246,3 +2277,80 @@ ul.attribute {
 }
 
 /* 404 page */
+
+
+
+/* Single Blog Page */
+
+.blog-footer-meta {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  margin: 30px 0px;
+}
+
+
+.blog-footer-meta a:hover {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+.blog-footer-meta span {
+  padding: 0px 3px;
+}
+.blog-footer-meta a {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 30px;
+  color: #afafaf;
+  text-decoration: none;
+}
+.blog-footer-meta {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 30px;
+  color: #afafaf;
+}
+
+.blog-footer-meta .social-contact:before {
+  content: "Share: ";
+  color: #333;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.blog-footer-meta .social-contact a {
+  margin-right: 12px;
+}
+.blog-footer-meta .social-contact {
+  text-align: right;
+}
+/* Single Blog Page */
+
+
+/* Tank Page */
+
+tbody.table-data tr td {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+tbody.table-data tr:nth-child(even) {
+  background-color: #dadada;
+}
+
+
+
+thead.table-headings th{
+  background-color: #4caf50;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+}
+
+
+/* Tank Page */
+
