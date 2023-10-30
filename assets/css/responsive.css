@@ -69,6 +69,10 @@
 {
     display: none;
 }
+.tank-size-wrap img {
+    height: auto !important;
+    min-height: auto;
+}
 
 @media(max-width:767px)
 {
