@@ -1,5 +1,11 @@
 @media(min-width:768px)
 {
+
+    .tanks img, .tank-sec img {
+        min-height: 420px;
+        object-fit: cover;
+    }
+
     .col-md-hidden {
         display: none;
     }
@@ -55,11 +61,32 @@
     .slick-slide {
         margin: 0 15px;
       }
+      .col-md-3.text-center.p_column {
+        max-width: calc(25% - 2%) !important;
+    }
 }
-
+.p_column:before, .p_column:after
+{
+    display: none;
+}
 
 @media(max-width:767px)
 {
+    .p_column:before, .p_column:after
+    {
+        display: none;
+    }
+    .p_column {
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alternate .tanks .row {
+        flex-direction: column-reverse;
+    }
     .related-blogs .row > * {
         width: 90%;
     }

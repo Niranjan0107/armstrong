@@ -2352,5 +2352,118 @@ thead.table-headings th{
 }
 
 
+.tanks ul li, .tank-sec ul li {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #8a8a8a;
+}
+
+.tanks ul, .tank-sec ul {
+padding-left: 13px;
+}
+
+
+
+.p_column {
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 1%;
+  padding: 20px;
+  border: solid 1px #d4d4d4;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* Change color of your first-child */
+
+.p_column:first-child {
+  background: var(--secondary);
+  color: #fff;
+  border: solid 1px;
+  border-color: var(--secondary);
+}
+/*Code for arrow*/
+
+.p_column:before,
+.p_column:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 42%;
+  bottom: 86px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* Stroke */
+
+.p_column:before {
+  right: -30px;
+  border-left-color: #d4d4d4;
+  border-width: 15px;
+}
+/* Fill */
+.quality {
+  justify-content: space-between;
+}
+.tank-size-wrap img {
+  height: auto !important;
+  min-height: auto;
+}
+.p_column:after {
+  right: -29px;
+  border-left-color: #fff;
+  border-width: 15px;
+}
+.p_column p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0
+}
+.p_column:first-child:before {
+  border-left-color: var(--secondary);
+}
+.p_column:first-child:after {
+  border-left-color: var(--secondary);
+}
+.p_column:last-child:before,
+.p_column:last-child:after {
+  display: none
+}
+/*color change hover*/
+
+.p_column:hover {
+  background: var(--secondary);
+  color: #fff;
+  border: solid 1px;
+  border-color: var(--secondary);
+  cursor: pointer;
+}
+.p_column:hover:before {
+  border-left-color: var(--secondary);
+}
+.p_column:hover:after {
+  border-left-color: var(--secondary);
+}
+
+.p_column:hover p
+{
+  color: var(--white);
+}
+.p_column:first-child p {
+  color: #fff;
+}
 /* Tank Page */
 
